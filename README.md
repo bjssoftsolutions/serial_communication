@@ -1,6 +1,6 @@
 ﻿
 
-[![Pub](https://img.shields.io/pub/v/serial_communication)](https://pub.dartlang.org/packages/usb_serial)  [![Flutter](https://github.com/altera2015/usbserial/actions/workflows/flutter.yml/badge.svg)](https://github.com/altera2015/usbserial/actions/workflows/flutter.yml)
+[![Pub](https://img.shields.io/pub/v/serial_communication)]
 # Serial communication!
 An Android Plugin for Serial Communication
 This Plugin wants to provide a simple API to connect, read and write data through theses serial ports.
