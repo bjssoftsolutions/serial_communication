@@ -1,0 +1,32 @@
+name: serial_communication
+homepage: https://github.com/bjssoftsolutions/serial_communication
+version: 0.0.1
+description: An Android Plugin for Serial Communication
+   This Plugin wants to provide a simple API to connect, read and write data through theses serial ports.
+   Listing the available serial ports on the device,
+   including USB to serial adapters
+   Configuring serial ports (baud rate, stop bits, permission, ...) 
+   Providing standard InputStream and OutputStream 
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.example.serial_communication
+        pluginClass: SerialCommunicationPlugin
+
+ 
