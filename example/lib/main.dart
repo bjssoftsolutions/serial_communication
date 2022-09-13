@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   int selectedBaudRate = SerialCommunication().baudRateList.first;
   List<String>? serialList = [];
   DataFormat format = DataFormat.ASCII;
-  final SerialCommunication serialCommunication = SerialCommunication();
+  SerialCommunication serialCommunication = SerialCommunication();
 
   @override
   void initState() {
