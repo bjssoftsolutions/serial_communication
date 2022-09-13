@@ -1,6 +1,6 @@
 name: serial_communication
 homepage: https://github.com/bjssoftsolutions/serial_communication
-version: 0.0.1
+version: 0.0.2
 description: An Android Plugin for Serial Communication which allows you to read and write the data through the available ports
 
 environment:

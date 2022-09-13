@@ -1,4 +1,6 @@
-﻿
+﻿## 0.0.2 - Readme-updated
+   description updated
+
 ## 0.0.1 - Initial release
 
    The supported features are:

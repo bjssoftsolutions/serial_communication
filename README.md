@@ -26,7 +26,7 @@ Click the image below to watch the video:
 Add a dependency to your pubspec.yaml
 ~~~
 dependencies:
-	serial_communication: 0.0.1
+	serial_communication: 0.0.2
 ~~~
 include the usbserial package at the top of your dart file.
 ~~~
