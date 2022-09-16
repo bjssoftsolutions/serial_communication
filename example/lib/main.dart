@@ -34,6 +34,7 @@ class _HomePageState extends State<HomePage> {
   int selectedBaudRate = SerialCommunication().baudRateList.first;
   List<String>? serialList = [];
   DataFormat format = DataFormat.ASCII;
+  String message = "";
   SerialCommunication serialCommunication = SerialCommunication();
 
   @override
@@ -239,15 +240,19 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 10),
         child: Row(
           children: [
-            const Expanded(
+            Expanded(
               child: TextField(
-                decoration: InputDecoration(hintText: "Write send Command"),
+                decoration:
+                    const InputDecoration(hintText: "Write send Command"),
+                onChanged: (value) {
+                  message = value;
+                },
               ),
             ),
             button(
                 name: "Send",
                 onPress: () {
-                  serialCommunication.sendCommand(message: "message");
+                  serialCommunication.sendCommand(message: message);
                 })
           ],
         ),
