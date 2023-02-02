@@ -12,6 +12,8 @@ import android.util.Log;
 
 import androidx.annotation.StringDef;
 
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -32,6 +34,7 @@ public class SerialApiManager {
     public static final String write = "write";
     public static final String append = "append";
 
+    @Retention(RetentionPolicy.SOURCE)
     @StringDef({port, read, write, append})
     public @interface Type {
     }
