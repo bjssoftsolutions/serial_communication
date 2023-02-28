@@ -170,7 +170,7 @@ Any help from the open-source community is always welcome and needed:
 
     ## Maintainers 
 
-- [Mahad Asghar](https://github.com/mahad555)
+- [BJS MB Dev](https://github.com/bjs-mb-dev)
 - [Zain Ul Abideen](https://github.com/zain4bjs) 
      
 
