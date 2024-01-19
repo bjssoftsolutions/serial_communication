@@ -33,7 +33,9 @@ public class OpenCommunication  {
     List<String> entryValues = new ArrayList<String>();
 
     public void destroyResources() {
-        spManager.destroy();
+        if(spManager != null) {
+            spManager.destroy();
+        }
     }
 
     public void initData() {
